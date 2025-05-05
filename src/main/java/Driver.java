@@ -4,7 +4,7 @@ public class Driver {
 
 	public static void main(String[] args) {
 		
-		Counter counter = new Counter();
+		Counter counter = new Countersen();
 		
 		System.out.println("Count:" + counter.getCount());
 		
