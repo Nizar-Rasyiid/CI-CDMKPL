@@ -23,7 +23,7 @@ public class CounterTest {
 	public void testIncrement() {
 		Counter testCounter = new Counter();
 		
-		for(int i = 1; i <10; i++) {
+		for(int i = 1; i <15; i++) {
 			testCounter.increment();
 			assertEquals(testCounter.getCount(), i);
 		}
