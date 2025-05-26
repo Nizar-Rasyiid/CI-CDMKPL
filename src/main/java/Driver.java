@@ -21,6 +21,8 @@ public class Driver {
 		System.out.println("Count after decrease by 3: " + counter.getCount());
 		counter.multiplyBy(2);
 		System.out.println("Count after multiply by 2: " + counter.getCount());
+		counter.reset();
+		System.out.println("Count after reset: " + counter.getCount());
 		
 	}
 
