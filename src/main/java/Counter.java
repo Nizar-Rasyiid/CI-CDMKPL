@@ -23,5 +23,25 @@ public class Counter {
 	public int getCount() {
 		return count;
 	}
-	
+
+	public void increaseBy(int i) {
+		if (i < 0) {
+			throw new IllegalArgumentException("Value must be non-negative");
+		}
+		count += i;
+	}
+
+	public void decreaseBy(int i) {
+		if (i < 0) {
+			throw new IllegalArgumentException("Value must be non-negative");
+		}
+		count -= i;
+	}
+
+	public void multiplyBy(int i) {
+		if (i < 0) {
+			throw new IllegalArgumentException("Value must be non-negative");
+		}
+		count *= i;
+	}
 }
