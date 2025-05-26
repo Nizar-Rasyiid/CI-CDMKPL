@@ -15,6 +15,13 @@ public class Driver {
 		counter.decrement();
 		
 		System.out.println("Count:" + counter.getCount());
+		counter.incrementBy(5);
+		System.out.println("Count after incrementing by 5: " + counter.getCount());
+		counter.decrementBy(3);
+		System.out.println("Count after decrementing by 3: " + counter.getCount());
+		counter.reset();
+
+		System.out.println("Count after reset: " + counter.getCount());
 		
 	}
 
